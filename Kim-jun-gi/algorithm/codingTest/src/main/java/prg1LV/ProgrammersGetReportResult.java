@@ -6,7 +6,7 @@ import java.util.*;
 public class ProgrammersGetReportResult {
     public static void main(String[] args) {
         String[] id_list = {"muzi", "frodo", "apeach", "neo"};
-        String[] report = {"muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"};
+        String[] report = {"muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"};
         int k = 2;
         int[] a = solution(id_list,report,k);
         for (int s : a) {
@@ -43,8 +43,9 @@ public class ProgrammersGetReportResult {
 
         return answer;
     }
+
 }
-// 신고는 한번에 한명만 즉 동일인물에 여러번 신고가능, 다수의 유저에 신고 가능
+//  다수의 유저에 신고 가능
 // k번 이상 신고당하면 신고한 유저에게 알람감 -> 신고 안 한 유저에게는 안 감
 
 //  신고당한 -> 신고한 , 신고한 , 신고한

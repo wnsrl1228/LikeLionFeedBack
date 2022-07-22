@@ -23,6 +23,7 @@ public class Back1543 {
             count++;
             lastIndex = startIndex + word.length();
         } while(lastIndex < doc.length());
+
         System.out.println(count);
     }
 }

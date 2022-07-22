@@ -19,7 +19,6 @@ public class Back2644 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
         N = Integer.parseInt(br.readLine());
         family = new int[N+1][N+1];
         visited = new boolean[N+1];
